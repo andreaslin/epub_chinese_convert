@@ -15,7 +15,7 @@ epub_convert_chinese.py [-h] -i INPUT_FILE [-o OUTPUT_FILE] -c CONFIG_OPTION [-v
 
 ## Example 範例
 ```
-  python epub_chinese_convert.py -i my_book.epub -c s2tw
+python epub_chinese_convert.py -i my_book.epub -c s2tw
 ```
 
 ## Configurations 設定文件
@@ -27,9 +27,7 @@ MIT License
 ## Notes
   1. This script is created since http://epubconv.mobi/ can only take file under 10MB (Update - May 7, 2016: The site is down)
   2. No encoding check for the file; encoding is assume to be UTF-8
-  3. Large files can take up to 2 minutes to complete (E.g. 10MB+ files)
 
 ## TODO
-  1. Speed up converting time
-  2. Deal with encoding
-  3. Setup a website for online convert
+  1. Deal with encoding
+  2. Setup a website for online convert
